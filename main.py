@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -19,6 +19,10 @@ class Article:
     content: str
     video_duration: str
     word_count: int
+    description: str = ""
+    lang: str = ""
+    classes: list = field(default_factory=list)
+    lite_url: str = ""
 
 class SitemapParser:
     def __init__(self, sitemap_index_url):
@@ -64,7 +68,7 @@ class ArticleScraper:
             response.raise_for_status()
             soup = BeautifulSoup(response.content, "lxml")
 
-            script = soup.find("script", {"type": "text/tawsiyat"})
+            script = soup.find("script", {"id": "tawsiyat-metadata", "type": "text/tawsiyat"})
             metadata = json.loads(script.string) if script else {}
 
             full_text = ""
@@ -73,12 +77,6 @@ class ArticleScraper:
 
             # Calculate word count
             word_count = len(full_text.split())
-
-            # Extract video duration
-            video_duration = ''
-            video_element = soup.find('meta', {'property': 'video:duration'})
-            if video_element:
-                video_duration = video_element.get('content', '')
 
             article = Article(
                 url=self.article_url,
@@ -90,8 +88,12 @@ class ArticleScraper:
                 last_updated_date=metadata.get('last_updated', ''),
                 author=metadata.get('author', ''),
                 content=full_text,
-                video_duration=video_duration,
-                word_count=word_count
+                video_duration=metadata.get('video_duration', ''),
+                word_count=int(metadata.get('word_count', 0)),
+                description=metadata.get('description', ''),
+                lang=metadata.get('lang', ''),
+                classes=metadata.get('classes', []),
+                lite_url=metadata.get('lite_url', '')
             )
             return article
         except Exception as e:
