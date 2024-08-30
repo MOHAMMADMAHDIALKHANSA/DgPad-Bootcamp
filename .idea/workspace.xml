@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Scrape AL Mayadeen Website">
+    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="include all attributes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -24,7 +24,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MOHAMMADMAHDIALKHANSA/DgPad-Bootcamp.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/MOHAMMADMAHDIALKHANSA/DgPad-Bootcamp&quot;,
     &quot;accountId&quot;: &quot;1a31d2bf-0282-4c5d-aeca-e49062caf091&quot;
   }
 }</component>
@@ -84,7 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1723813963270</updated>
       <workItem from="1723813964635" duration="13387000" />
-      <workItem from="1723972690841" duration="7644000" />
+      <workItem from="1723972690841" duration="11500000" />
+      <workItem from="1724411923062" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="Scrape AL Mayadeen Website">
       <option name="closed" value="true" />
@@ -94,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723814659838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="include all attributes">
+      <option name="closed" value="true" />
+      <created>1723994989485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723994989485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scrape AL Mayadeen Website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scrape AL Mayadeen Website" />
+    <MESSAGE value="include all attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="include all attributes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Task_one_3$main.coverage" NAME="main Coverage Results" MODIFIED="1723987749504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
