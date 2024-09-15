@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="include all attributes">
+    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Task 2">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/articles_by_author_js.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/article_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/top_authors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/top_keywords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/articles_2024_03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/articles_2024_08.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_04.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_05.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/articles_2024_8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,20 +61,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.articles_count.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.article_details.js.executor": "Run",
+    "Node.js.article_details.js.py.executor": "Run",
+    "Node.js.articles_by_author.js.executor": "Run",
+    "Node.js.top_keywords.js.executor": "Run",
+    "Python.Data_Storage.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.article_details.js.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/MHMD MAHDI/PycharmProjects/Task one 3/articles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MHMD MAHDI\PycharmProjects\Task one 3\articles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MHMD MAHDI\PycharmProjects\Task one 3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Task one 3/Charts/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="top_authors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Charts/top_authors.js" working-dir="$PROJECT_DIR$/Charts">
+      <method v="2" />
+    </configuration>
+    <configuration name="top_keywords.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="top_keywords.js" working-dir="$PROJECT_DIR$/Charts">
+      <method v="2" />
+    </configuration>
+    <configuration name="Data_Storage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Task one 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Storage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Task one 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Task one 3" />
       <option name="ENV_FILES" value="" />
@@ -74,6 +174,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.Data_Storage" />
+        <item itemvalue="Node.js.top_keywords.js" />
+        <item itemvalue="Node.js.top_authors.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +203,9 @@
       <workItem from="1723813964635" duration="13387000" />
       <workItem from="1723972690841" duration="11500000" />
       <workItem from="1724411923062" duration="637000" />
+      <workItem from="1725030485496" duration="9309000" />
+      <workItem from="1726396591918" duration="2731000" />
+      <workItem from="1726399977552" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="Scrape AL Mayadeen Website">
       <option name="closed" value="true" />
@@ -103,7 +223,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723994989485</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1725030621526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725030621526</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1725030672786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725030672786</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1725030791106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725030791106</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,9 +256,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scrape AL Mayadeen Website" />
     <MESSAGE value="include all attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="include all attributes" />
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Task_one_3$Data_Storage.coverage" NAME="Data_Storage Coverage Results" MODIFIED="1726400118493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Task_one_3$main.coverage" NAME="main Coverage Results" MODIFIED="1723987749504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Task_one_3$article_details_js.coverage" NAME="article_details.js Coverage Results" MODIFIED="1726398417795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Charts" />
+    <SUITE FILE_PATH="coverage/Task_one_3$app.coverage" NAME="app Coverage Results" MODIFIED="1726400155008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

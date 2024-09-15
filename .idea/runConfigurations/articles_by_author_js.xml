@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="articles_by_author.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Charts/articles_by_author.js" working-dir="$PROJECT_DIR$/Charts">
+    <method v="2" />
+  </configuration>
+</component>

@@ -82,7 +82,7 @@ class ArticleScraper:
                 url=self.article_url,
                 post_id=metadata.get('postid', ''),
                 title=metadata.get('title', ''),
-                keywords=metadata.get('keywords', '').split(" "),
+                keywords=metadata.get('keywords', '').split(","),
                 thumbnail=metadata.get('thumbnail', ''),
                 publication_date=metadata.get('published_time', ''),
                 last_updated_date=metadata.get('last_updated', ''),

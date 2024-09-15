@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Articles by Word Count Chart</title>
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <script src="https://www.amcharts.com/lib/5/core.js"></script>
+    <script src="https://www.amcharts.com/lib/5/charts.js"></script>
+    <script src="https://www.amcharts.com/lib/5/animated.js"></script>
+    <style>
+        #chartdiv {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chartdiv"></div>
+    <script>
+        am5.ready(function() {
+            var root = am5.Root.new("chartdiv");
+            var chart = root.container.children.push(new am5xy.XYChart());
+
+            fetch('http://localhost:5000/articles_count')
+                .then(response => response.json())
+                .then(data => {
+                    var xAxis = chart.xAxes.push(new am5xy.CategoryAxis());
+                    xAxis.dataFields.category = "_id";
+                    xAxis.renderer.grid.template.location = 0;
+
+                    var yAxis = chart.yAxes.push(new am5xy.ValueAxis());
+
+                    var series = chart.series.push(new am5xy.ColumnSeries());
+                    series.dataFields.valueY = "count";
+                    series.dataFields.categoryX = "_id";
+                    series.columns.template.tooltipText = "{categoryX}: {valueY}";
+
+                    chart.data = data;
+                });
+        });
+    </script>
+</body>
+</html>
