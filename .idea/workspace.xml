@@ -189,6 +189,7 @@
       <workItem from="1725030485496" duration="9309000" />
       <workItem from="1726396591918" duration="2731000" />
       <workItem from="1726399977552" duration="4922000" />
+      <workItem from="1726428413247" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="Scrape AL Mayadeen Website">
       <option name="closed" value="true" />
@@ -254,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726428129645</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task 3">
+      <option name="closed" value="true" />
+      <created>1726428428512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726428428512</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task 3">
+      <option name="closed" value="true" />
+      <created>1726428545826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726428545826</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
