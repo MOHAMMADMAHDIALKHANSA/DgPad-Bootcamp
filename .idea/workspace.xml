@@ -4,23 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Task 2">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/articles_by_author_js.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charts/article_details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charts/articles_count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charts/top_authors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charts/top_keywords.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/articles_2024_03.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/articles_2024_08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_4.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_04.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_05.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_6.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_06.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_7.json" beforeDir="false" afterPath="$PROJECT_DIR$/articles/articles_2024_07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/articles_2024_8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Task 3">
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_author.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_keyword_count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_month.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_title_length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_top_keyword_count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_word_count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_word_count_range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_by_year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_containing_text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_grouped_by_coverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_grouped_by_coverage_perYear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_grouped_by_keywords_count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_last_X_hours.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_updated_after_publication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_with_more_than.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_with_thumbnail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/articles_with_video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/longest_articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/popular_keywords_last_X_days.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/recent_articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/shortest_articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charts/top_classes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +215,7 @@
       <workItem from="1724411923062" duration="637000" />
       <workItem from="1725030485496" duration="9309000" />
       <workItem from="1726396591918" duration="2731000" />
-      <workItem from="1726399977552" duration="4433000" />
+      <workItem from="1726399977552" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="Scrape AL Mayadeen Website">
       <option name="closed" value="true" />
@@ -247,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725030791106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task 3">
+      <option name="closed" value="true" />
+      <created>1726427939431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726427939431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +275,8 @@
     <MESSAGE value="Scrape AL Mayadeen Website" />
     <MESSAGE value="include all attributes" />
     <MESSAGE value="Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
+    <MESSAGE value="Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Task_one_3$Data_Storage.coverage" NAME="Data_Storage Coverage Results" MODIFIED="1726400118493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
