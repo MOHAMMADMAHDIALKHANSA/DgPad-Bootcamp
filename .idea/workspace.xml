@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Task 3" />
+    <list default="true" id="7c7a3833-cff3-4071-bd38-553830f2c6da" name="Changes" comment="Task 3">
+      <change afterPath="$PROJECT_DIR$/entity_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -189,7 +193,11 @@
       <workItem from="1725030485496" duration="9309000" />
       <workItem from="1726396591918" duration="2731000" />
       <workItem from="1726399977552" duration="4922000" />
-      <workItem from="1726428413247" duration="367000" />
+      <workItem from="1726428413247" duration="1150000" />
+      <workItem from="1727702917009" duration="1153000" />
+      <workItem from="1728042133825" duration="3613000" />
+      <workItem from="1728045962976" duration="346000" />
+      <workItem from="1728046321058" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="Scrape AL Mayadeen Website">
       <option name="closed" value="true" />
@@ -271,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726428545826</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task 3">
+      <option name="closed" value="true" />
+      <created>1726428853166</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726428853166</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
