@@ -62,9 +62,6 @@ pip install requests beautifulsoup4 lxml tenacity
 
 This project is licensed under the MIT License.
 
-### Contact
-
-For any inquiries or support, please contact [Your Name] at [Your Email Address].
 
 ---
 
